@@ -6,8 +6,7 @@ import sys
 
 def main(argv):
     for arg in argv:
-        print arg
-
+        print(arg)
 
 
 if __name__ == '__main__':

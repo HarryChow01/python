@@ -10,7 +10,7 @@ def test_clock():
     time1 = time.clock()    # time diff from process start
     time.sleep(2)
     time2 = time.clock()    # time diff from last time.clock()
-    print "time1:{0} time2:{1}".format(time1, time2)
+    print("time1:{0} time2:{1}".format(time1, time2))
 
 # test_clock()
 
@@ -35,7 +35,7 @@ cur_tuple_localtime = time.localtime(time.time())
 # print format_time
 
 tuple_time = time.strptime("2015-03-15 22:44:15", "%Y-%m-%d %H:%M:%S")
-print tuple_time
+print(tuple_time)
 
 
 

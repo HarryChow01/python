@@ -35,7 +35,7 @@ text_str = "ABC123abc333"
 pattern = re.compile("[a-zA-Z]*")       #
 #match = pattern.match(text_str)
 match = pattern.findall(text_str)
-print match
+print(match)
 
 w1 = r"[a-zA-Z]+"
 #m1 = re.search(w1, text_str)

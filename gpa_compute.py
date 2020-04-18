@@ -71,16 +71,16 @@ def compute_gpa(infile_name, type):
         total_mark += mark * credit
         
     gpa = total_mark / total_credit
-    print "gpa = %f" % (gpa)
+    print("gpa = %f" % (gpa))
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print "Please input : %s score_file type" % (sys.argv[0])
+        print("Please input : %s score_file type" % (sys.argv[0]))
         exit(1)
     type = int(sys.argv[2])
     if type != 0 and type != 1 and type != 2 and type != 3:
-        print "type error"
+        print("type error")
         exit(1)
     compute_gpa(sys.argv[1], type)
 
