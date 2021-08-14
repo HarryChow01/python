@@ -1,5 +1,11 @@
 import requests
 import json
 
-r = requests.post('https://api.github.com/some/endpoint', data=json.dumps({'some': 'data'}))
-print(r.json())
+
+url = "https://www.baidu.com"
+resp = requests.get(url)
+print(resp.status_code)
+print(resp.text)
+
+
+
