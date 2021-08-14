@@ -14,6 +14,7 @@ def test_clock():
 
 # test_clock()
 
+
 cur_time_second = time.time()
 # print cur_time_second
 cur_tuple_localtime = time.localtime(time.time())
@@ -28,7 +29,6 @@ cur_tuple_localtime = time.localtime(time.time())
 # print time.ctime()    # convert seconds time to ascii time
 # print time.asctime(cur_tuple_localtime)    # convert tuple time to ascii time
 # print time.asctime()    # convert current tuple time to ascii time
-
 
 # format_time = time.strftime("%Y-%m-%d %H:%M:%S", cur_tuple_localtime)
 # format_time = time.strftime("%Y-%m-%d %H:%M:%S")                          # current time
